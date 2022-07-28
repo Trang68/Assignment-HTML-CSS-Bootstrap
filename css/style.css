@@ -1,0 +1,157 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu";
+}
+/* hearder */
+
+.nav-first {
+  min-height: 47px;
+  color: #0a2e72;
+  text-decoration: none;
+  background-image: url(/img/Bg-nav1.png);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center;
+  /* height: 100%; */
+}
+.wrapper-background {
+  background-image: url(/img/CompositeLayer.png);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.nav-second a {
+  color: #ffffff;
+}
+
+/* hero section */
+.hero-section {
+  height: 900px;
+  background-color: #e4e4e4;
+}
+.hero-section img {
+  width: 30%;
+  min-width: 885px;
+  min-height: 769px;
+  margin-top: -600px;
+  margin-left: -380px;
+}
+.hero-section h3 {
+  color: #0088ff;
+}
+.hero-section h1 {
+  color: #0a2e72;
+  font-size: 70px;
+}
+.hero-section p {
+  color: #454d5d;
+}
+/* cta-section */
+.cta-section {
+  min-height: 312px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* align-items: right; */
+}
+.cta-section h2 {
+  color: #0a2e72;
+  font-size: 45px;
+}
+.cta-section span {
+  color: #0088ff;
+}
+.call-us {
+  margin-left: 0vh;
+  padding: 24px 20px 0px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: right;
+  background-image: url(/img/Bg-call-us.svg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position-x: left;
+  cursor: pointer;
+}
+
+.call-us h3 {
+  display: block;
+  font-size: 35px;
+}
+.call-us p {
+  font-size: 16px;
+}
+.call-us h3,
+p {
+  color: #ffffff;
+}
+/* service section */
+.service-section {
+  background-color: #f8f8f8;
+  width: 100%;
+  height: 1137px;
+}
+.service-section h2 {
+  font-size: 42px;
+  color: #0a2e72;
+}
+.service-section p {
+  color: #454d5d;
+  font-size: 16px;
+}
+.list-department {
+  background-color: #ffffff;
+  /* margin: ; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.list-department img {
+  border-radius: 50%;
+  background-color: #f8f8f8;
+}
+.list-department h3 {
+  color: #0a2e72;
+  font-size: 28;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* video-section */
+.video-section {
+}
+.team-section {
+}
+.fun-facts {
+}
+.call-section {
+}
+.testimonial-section {
+}
+.section body {
+  background-color: #ffff;
+}
+
+.footer-section {
+  background-color: #0a2e72;
+  color: #ffff;
+}
+.footer-bottom {
+  text-align: center;
+}
+.footer-bottom p {
+  font-size: 16px;
+}
+
+@media screen and {
+  max-width: ;
+}
