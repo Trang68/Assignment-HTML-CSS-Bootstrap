@@ -96,7 +96,7 @@ p {
 .service-section {
   background-color: #f8f8f8;
   width: 100%;
-  height: 1137px;
+  height: 1100px;
 }
 .service-section h2 {
   font-size: 42px;
@@ -128,11 +128,129 @@ p {
 
 /* video-section */
 .video-section {
+  width: 100%;
+  min-width: 567px;
+  height: 506px;
 }
+.video-section-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a2e72;
+}
+.video-section::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  min-height: 135px;
+  background: #f8f8f8;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  align-items: center;
+}
+.video__content h4 {
+  color: #00ffc0;
+  font-size: 18px;
+}
+
+.video__content h2 {
+  color: #ffffff;
+  font-size: 45px;
+}
+.video__content span {
+  color: #0088ff;
+  font-size: 45px;
+}
+.video__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+.video__wrapper {
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.video__wrapper img {
+  max-width: 100%;
+  height: 100%;
+}
+.play__box {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  border: 2px solid #ffffff;
+  background-color: #0088ff;
+  color: #ffffff;
+  /* margin-right: 504px;
+  margin-top: 55px; */
+  bottom: 68px;
+  right: 44%;
+}
+.play__box i {
+  color: white;
+  line-height: 120px;
+  font-size: 35px;
+}
+/* TEAM_SECTION */
 .team-section {
+  background-color: #ffffff;
+  height: 1310px;
 }
+
+.team-section h2 {
+  font-size: 42px;
+  color: #0a2e72;
+  font-weight: 900px;
+}
+.team-section h3 {
+  text-align: center;
+  font-size: 26px;
+  color: #0a2e72;
+  font-weight: 900px;
+}
+.team-section p {
+  color: #0088ff;
+  font-size: 20px;
+  font-weight: 600px;
+}
+list-teams {
+  background-color: #ffffff;
+  /* margin: ; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  background-image: fit;
+}
+.team-section p {
+  text-align: center;
+}
+/* FUN_FACTS */
 .fun-facts {
+  width: 100%;
+  height: 511px;
 }
+.card-body h5 {
+  font-size: 45px;
+  color: #0a2e72;
+}
+.card-body h4 {
+  font-size: 30px;
+  color: #0088ff;
+}
+.fun-facts .col-right h3 {
+  color: #ffffff;
+  font-size: 30px;
+}
+
 .call-section {
 }
 .testimonial-section {
