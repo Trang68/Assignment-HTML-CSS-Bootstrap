@@ -96,7 +96,7 @@ p {
 .service-section {
   background-color: #f8f8f8;
   width: 100%;
-  height: 1100px;
+  min-height: 1100px;
 }
 .service-section h2 {
   font-size: 42px;
@@ -236,7 +236,11 @@ list-teams {
 /* FUN_FACTS */
 .fun-facts {
   width: 100%;
-  height: 511px;
+  min-height: 511px;
+}
+.fun-facts img {
+  left: 7px;
+  top: -100px;
 }
 .card-body h5 {
   font-size: 45px;
@@ -254,22 +258,73 @@ list-teams {
 .call-section {
 }
 .testimonial-section {
+  width: 100%;
+  min-height: 850px;
 }
-.section body {
-  background-color: #ffff;
+.testimonial-section h3 {
+  font-size: 42px;
+  color: #0a2e72;
+}
+.testimonial-section p {
+  font-size: 16px;
+  color: #454d5d;
 }
 
+/* Blog post section */
+.blogpost-wrapper {
+  background-color: #0a2e72;
+  color: #ffffff;
+  min-height: 181px;
+}
+.blogpost-wrapper h2 {
+  font-size: 45px;
+}
+.blogpost-wrapper span {
+  color: #ff9000;
+}
+.blogpost-wrapper img {
+  top: -121px;
+  left: 0px;
+}
+
+/* card blog */
+
+.blog-cards h3 {
+  font-size: 21px;
+  color: #0a2e72;
+}
+.blog-cards a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* FOOTER */
 .footer-section {
   background-color: #0a2e72;
   color: #ffff;
 }
-.footer-bottom {
-  text-align: center;
+.footer-top {
+  min-height: 519px;
 }
-.footer-bottom p {
-  font-size: 16px;
+.top-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
-@media screen and {
-  max-width: ;
+.footer-bottom {
+  min-height: 55px;
+  font-size: 16px;
 }
+.img-left {
+  top: -698px;
+  right: 1012px;
+  object-fit: contain;
+}
+.img-right {
+  top: -660px;
+  left: 1129px;
+}
+
+/* @media */
