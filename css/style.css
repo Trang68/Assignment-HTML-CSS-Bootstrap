@@ -32,7 +32,7 @@
 
 /* hero section */
 .hero-section {
-  height: 900px;
+  min-height: 900px;
   background-color: #e4e4e4;
 }
 .hero-section img {
@@ -41,6 +41,7 @@
   min-height: 769px;
   margin-top: -600px;
   margin-left: -380px;
+  mix-blend-mode: color-burn;
 }
 .hero-section h3 {
   color: #0088ff;
@@ -318,13 +319,22 @@ list-teams {
   font-size: 16px;
 }
 .img-left {
+  display: block;
+  max-width: 100%;
+  height: auto; /* width: 100%;
+  height: 100%; */
   top: -698px;
   right: 1012px;
   object-fit: contain;
+  mix-blend-mode: screen;
 }
 .img-right {
+  display: block;
+  max-width: 100%;
+  height: auto;
   top: -660px;
   left: 1129px;
+  mix-blend-mode: screen;
 }
 
 /* @media */
