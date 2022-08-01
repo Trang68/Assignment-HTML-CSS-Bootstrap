@@ -221,7 +221,7 @@ p {
   font-size: 20px;
   font-weight: 600px;
 }
-list-teams {
+.list-teams {
   background-color: #ffffff;
   /* margin: ; */
   display: flex;

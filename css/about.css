@@ -1,0 +1,63 @@
+.hero-area {
+  min-height: 301px;
+  background-color: #e4e4e4;
+}
+.hero-area a {
+  font-size: 20px;
+  text-decoration: none;
+}
+.hero-area h1 {
+  color: #0a2e72;
+  font-size: 50px;
+}
+.hero-area img {
+  width: 30%;
+  min-width: 885px;
+  min-height: 769px;
+  bottom: -139px;
+  left: -100px;
+  mix-blend-mode: color-burn;
+}
+
+/* CTA-section */
+.contact-cta-section {
+  min-height: 1200px;
+}
+.contact-cta-section h3 {
+  font-size: 45px;
+  color: #0a2e72;
+}
+.contact-cta-section p {
+  font-size: 16px;
+  color: #454d5d;
+}
+.top-left-img img {
+  width: 450px;
+  height: 180px;
+}
+.bot-left-text span {
+  font-size: 20px;
+  color: #0a2e72;
+  font-weight: 900;
+}
+.bot-left-text i {
+  /* background-image: url(/img/contact/Ellipse-CTA.svg); */
+  font-size: 24px;
+}
+.bot-left-text h2 {
+  font-size: 28px;
+  color: #0a2e72;
+}
+.bot-right-imgs img {
+  width: 471px;
+  height: 612px;
+  margin-left: 10%;
+}
+
+.cta-section-bot {
+  min-height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #edf4fa;
+}
