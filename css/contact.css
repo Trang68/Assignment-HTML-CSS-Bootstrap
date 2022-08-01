@@ -19,24 +19,26 @@
   mix-blend-mode: color-burn;
 }
 .contact-section-wrapper {
-  min-height: 1000px;
+  min-height: 800px;
   background-color: white;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
-/* .contact-item-header {
+.contact-item-header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-} */
+}
 .contact-bottom {
+  width: 100%;
   min-height: 581px;
 }
 .contact-item-bpdy h2 {
   font-size: 42px;
   color: #0a2e72;
+  text-align: center;
 }
 .contact-item-body p {
   font-size: 16px;
@@ -44,7 +46,7 @@
 }
 .by-phone,
 .by-email,
-.by-email {
+.by-adress {
   display: flex;
   align-items: center;
   justify-content: flex-start;
